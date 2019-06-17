@@ -1,7 +1,12 @@
 import React, { Fragment, useEffect } from 'react';
 import './App.css';
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    // Init Materlialize JS
+    M.AutoInit();
+  });
+
   return (
     <div className="App">
       <header className="App-header">
